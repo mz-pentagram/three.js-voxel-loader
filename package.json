@@ -1,7 +1,7 @@
 {
   "name": "webpack-template",
   "scripts": {
-    "dev": "webpack"
+    "build": "webpack"
   },
   "devDependencies": {
     "webpack": "^5.70.0",

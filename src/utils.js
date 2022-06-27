@@ -29,7 +29,7 @@ export const init = () => {
 
   // vox
   const loader = new VOXLoader();
-  loader.load("../models/globe.vox", (chunks) => {
+  loader.load("../models/8x8x8.vox", (chunks) => {
     chunks.forEach((chunk) => {
       const mesh = new VOXMesh(chunk);
       mesh.scale.setScalar(0.0015);
